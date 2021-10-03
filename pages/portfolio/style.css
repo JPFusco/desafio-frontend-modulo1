@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 95px 47px 0;
+}
+
+.portfolio {
+    display: flex;
+
+    margin-bottom: 80px;
+}
+
+.portfolio img {
+    width: 36vw;
+}
+
+.portfolio div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 0px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.portfolio p {
+    margin-bottom: 15px;
+}
+
+.manage img, .insure img {
+    margin-right: 125px;
+}
+
+.bookmark img, .fylo img {
+    margin-left: 125px;
+}
+
+.fylo {
+    margin-bottom: 150px;
+}

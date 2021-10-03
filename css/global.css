@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.container {
+    padding: 0px 165px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    margin: 65px 165px 10px;
+}
+
+.header--verde {
+    color: #5FB4A2;
+}
+
+header a {
+    color: #33323D;
+    margin-left: 43px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    
+    letter-spacing: -0.285714px;
+    
+    color: #33323D;
+}
+
+p {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+    line-height: 30px;
+
+    color: #33323D;
+}
+
+.body1 {
+    font-size: 16px;
+}
+
+.body1--verde {
+    color: #5FB4A2;
+    font-weight: bold;
+}
+
+.body2 {
+    font-size: 15px;
+}
+
+button {
+    all: unset;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.button-primario {
+    background: #203A4C;
+}
+
+.button-primario a {
+    display: flex;
+    align-items: center;
+}
+
+.button-primario img {
+    background: rgba(0, 0, 0, 0.1);
+    height: 48px;
+    width: 48px;
+    padding: 18px 16px;
+}
+
+.button-primario span {
+    color: #FFFFFF;
+    font-weight: 100;
+    flex-grow: 1;
+    text-align: center;
+    padding: 17px 35px;
+}
+
+.button-primario:hover {
+    background: #5FB4A2;
+}
+
+.button-secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #33323D;
+}
+
+.button-secundario a {
+    color: #33323D;
+}
+
+.button-secundario:hover {
+    background: #33323D;
+}
+
+.button-secundario:hover a {
+    color: #FAFAFA;
+}
+
+.button-secundario--portfolio {
+    padding: 17px 28px;
+}
+
+.button-secundario--contato {
+    padding: 17px 50px;
+}
+
+.button-secundario--verProjeto {
+    padding: 17px 38px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 150px;
+}
+
+.contato h2 {
+    max-width: 367px;
+}
+
+.produto-container {
+    margin-top: 95px;
+}
+
+.produto-container > img {
+    width: 100%;
+    margin-bottom: 115px;
+}
+
+.content {
+    display: flex;
+}
+
+.produto-resumo {
+    min-width: 350px;
+    max-height: 500px;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+
+    margin-right: 125px;
+    padding: 50px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.button-secundario--visitar {
+    padding: 17px 60px;
+}
+
+.produto-detalhado h3 {
+    margin-bottom: 28px;
+}
+
+.produto-detalhado p {
+    margin-bottom: 40px;
+}
+
+.produto-detalhado img {
+    max-width: 40vw;
+    margin-bottom: 30px;
+}
+
+.mudarProjeto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+
+    padding: 32px 0;
+    margin-bottom: 115px;
+}
+
+.mudarProjeto > div {
+    display: flex;
+}
+
+.mudarProjeto a {
+    margin: auto 0;
+}
+
+.mudarProjeto--opacidade {
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.mudarProjeto-direita {
+    margin-right: 30px;
+}
+
+.mudarProjeto-esquerda {
+    margin-left: 30px;
+}
+
+input, textarea {
+    all: unset;
+    box-sizing: border-box;
+}
+
+footer {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    background: #33323D;
+
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 165px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links img {
+    margin-right: 50px;
+}
+
+.footer-links a {
+    margin-right: 42px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-socials a {
+    margin-left: 16px;
+}

@@ -1,0 +1,49 @@
+.hero {
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+    margin-top: 55px;
+    margin-bottom: 150px;
+}
+
+.hero div {
+    width: 445px;
+    height: 357px;
+
+    background: #FAFAFA;
+}
+
+.hero h1 {
+    margin: 55px 27px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.sobre img {
+    width: 37.5vw;
+    height: 600px;
+}
+
+.sobre div {
+    width: 430px;
+    padding: 50px 0px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sobre button {
+    align-self: center;
+}
